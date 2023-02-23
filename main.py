@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 import random
 
+step = int(input('Enter number of steps: '))
+
 coords = [[0,0]] 
 x = []
 y = []
 coord = [0,0]
-while len(x)<= 20:
+while len(x)<= step:
     while True:
         copyCoord = coord.copy()
         dir = random.randint(0,3)
