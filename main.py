@@ -20,7 +20,6 @@ while len(x)<= step:
         else:
             copyCoord[1] -= 1
         if copyCoord not in coords:
-            print(copyCoord,coords)
             break
     coords.append(copyCoord)
     coord = copyCoord
