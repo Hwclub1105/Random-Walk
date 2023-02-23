@@ -26,7 +26,5 @@ while len(x)<= step:
     coord = copyCoord
     x.append(coord[0])
     y.append(coord[1])
-print(x)
-print(y)
 plt.plot(x,y)
 plt.show()
